@@ -1,0 +1,18 @@
+in_million_usd,Category
+Net Income/Starting Line,Operating Activities
+Depreciation & Amortization,Operating Activities
+Non-Cash Items,Operating Activities
+Change in Working Capital,Operating Activities
+Cash from Operating Activities,Operating Activities
+Change in Fixed Assets & Intangibles,Investing Activities
+Net Change in Long Term Investment,Investing Activities
+Other Investing Activities,Investing Activities
+Cash from Investing Activities,Investing Activities
+Dividends Paid,Financing Activities
+Cash From (Repayment of) Debt,Financing Activities
+Cash From (Repurchase of) Equity,Financing Activities
+Other Financing Activities,Financing Activities
+Cash from Financing Activities,Financing Activities
+Net Cash Before FX,Other
+Effect of Foreign Exchange Rates,Other
+Net Changes in Cash,Other
