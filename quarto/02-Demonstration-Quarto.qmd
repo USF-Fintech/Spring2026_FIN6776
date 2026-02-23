@@ -105,6 +105,58 @@ Footnote[^1]
 
 ## Tables
 
+
+### Dataframe tables
+
+#### console print
+
+Data frames are rendered as what is printed in consoles
+
+```{r}
+head(iris, 3) # console ouptut
+```
+
+#### gt print
+
+Great Tables package (gt) provide a beautiful way to print data frames.
+
+```{r}
+# Install package "gt" to use it
+gt::gt(head(iris, 3))
+```
+
+
+## Image
+
+![Quarto is mind blowing!](https://media.giphy.com/media/lXu72d4iKwqek/giphy.gif){fig-align="center"}
+
+# Code chunks
+
+## Insert Chunks
+
+In order it to insert a code chunk to the document,
+
+-   click `Insert -> Code chunk -> R` (in Visual mode)
+-   or press `Ctrl (Cmd) + Alt (Opt) + I` (in Visual mode)
+-   or press `Ctrl (Cmd) + Shift + I` (in source mode)
+
+```{r}
+#| message: false
+#| warning: false
+
+# install.packages(c('ggthemes','tidyverse','tidyquant')) before rendering!
+library(tidyverse)
+library(tidyquant)
+library(ggthemes)
+library(ggplot2)
+```
+
+To execute the whole code chunk, `Ctrl (Cmd) + Shift + Enter`
+
+## Sample plot
+
+Let's run below code:
+
 ```{r}
 stock_price <- tq_get("AAPL", from = "2023-12-01", to = "2023-12-31")
 stock_price |>
